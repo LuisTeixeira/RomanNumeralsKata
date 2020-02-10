@@ -16,4 +16,9 @@ public class Converter {
         return romanNumeralWriter.writeRomanNumeral(number);
     }
 
+    public Integer toDecimal(String romanNumeral) {
+        DecimalWriter decimalWriter = new DecimalWriter();
+        return decimalWriter.writeDecimal(romanNumeral);
+    }
+
 }
