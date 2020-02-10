@@ -3,7 +3,7 @@ package com.lteixeira.kataromannumerals;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ConverterTest {
+public class ConverterToRomanNumeralTest {
 
     @Test
     public void invalidNumbers() {
